@@ -1,0 +1,11 @@
+title: Tech Notes
+description: A minimal technical blog for bugs, pitfalls, and notes.
+author: Your Name
+
+theme: minima
+minima:
+  skin: classic
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
