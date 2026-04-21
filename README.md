@@ -1,4 +1,4 @@
-# Tech Notes
+# Tails Up
 
 A personal technical blog: short posts on bugs I've hit, pitfalls I've tripped over, and notes I want to keep around.
 
