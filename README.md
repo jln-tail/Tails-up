@@ -1,8 +1,8 @@
 # Tech Notes
 
-A personal technical blog — short posts on bugs I've hit, pitfalls I've tripped over, and notes I want to keep around.
+A personal technical blog: short posts on bugs I've hit, pitfalls I've tripped over, and notes I want to keep around.
 
-Live at: [https://jln-tail.github.io/Blog/](https://jln-tail.github.io/Blog/)
+Live at: [https://jln-tail.github.io/Tails-up/](https://jln-tail.github.io/Tails-up/)
 
 ## What's here
 
