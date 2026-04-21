@@ -2,7 +2,7 @@
 
 A personal technical blog — short posts on bugs I've hit, pitfalls I've tripped over, and notes I want to keep around.
 
-Live at: https://jln-tail.github.io/Blog/
+Live at: [https://jln-tail.github.io/Blog/](https://jln-tail.github.io/Blog/)
 
 ## What's here
 
@@ -14,8 +14,8 @@ Posts lean toward brevity. They are not tutorials.
 
 ## Built with
 
-Plain [Jekyll](https://jekyllrb.com/) on GitHub Pages with the official [`minima`](https://github.com/jekyll/minima) theme. No custom build, no framework churn.
+Plain [Jekyll](https://jekyllrb.com/) on GitHub Pages with the official `[minima](https://github.com/jekyll/minima)` theme. No custom build, no framework churn.
 
 ## Feed
 
-An RSS/Atom feed is available at [`/feed.xml`](/feed.xml).
+An RSS/Atom feed is available at `[/feed.xml](/feed.xml)`.
