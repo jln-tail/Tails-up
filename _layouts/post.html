@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   {%- include head.html -%}
-  <body>
+  <body class="page-post">
     {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">
@@ -49,7 +49,7 @@
     </main>
 
     {%- include footer.html -%}
-    <link rel="stylesheet" href="{{ '/assets/css/toc.css' | relative_url }}?v=3">
-    <script src="{{ '/assets/js/toc.js' | relative_url }}?v=3" defer></script>
+    <link rel="stylesheet" href="{{ '/assets/css/toc.css' | relative_url }}?v=4">
+    <script src="{{ '/assets/js/toc.js' | relative_url }}?v=4" defer></script>
   </body>
 </html>

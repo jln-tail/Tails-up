@@ -1,4 +1,6 @@
-.wrapper.wrapper-post {
+.wrapper.wrapper-post,
+body.page-post .site-header > .wrapper,
+body.page-post .site-footer > .wrapper {
   max-width: 1260px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -88,7 +90,9 @@
 }
 
 @media screen and (max-width: 1180px) {
-  .wrapper.wrapper-post {
+  .wrapper.wrapper-post,
+  body.page-post .site-header > .wrapper,
+  body.page-post .site-footer > .wrapper {
     max-width: calc(800px - (30px * 2));
   }
 
