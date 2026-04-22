@@ -1,8 +1,23 @@
 .post-with-toc {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 240px;
-  gap: 2rem;
+  grid-template-columns: minmax(0, 760px) 220px;
+  gap: 2.75rem;
+  justify-content: center;
   align-items: start;
+}
+
+.post-back {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+}
+
+.post-back a {
+  color: #666;
+  text-decoration: none;
+}
+
+.post-back a:hover {
+  text-decoration: underline;
 }
 
 .post-toc {
@@ -61,7 +76,7 @@
   white-space: nowrap;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1180px) {
   .post-with-toc {
     grid-template-columns: 1fr;
   }
