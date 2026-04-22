@@ -1,17 +1,20 @@
-.wrapper-post {
+.wrapper.wrapper-post {
   max-width: 1260px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .post-with-toc {
   display: grid;
-  grid-template-columns: minmax(0, 920px) 220px;
+  grid-template-columns: minmax(0, 980px) 220px;
   gap: 2.75rem;
   justify-content: center;
   align-items: start;
 }
 
-.post-header .post-title {
-  max-width: 920px;
+.post-with-toc .post-header .post-title {
+  font-size: 2.25rem;
+  line-height: 1.2;
 }
 
 .post-back {
@@ -85,7 +88,7 @@
 }
 
 @media screen and (max-width: 1180px) {
-  .wrapper-post {
+  .wrapper.wrapper-post {
     max-width: calc(800px - (30px * 2));
   }
 
