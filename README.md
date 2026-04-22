@@ -16,6 +16,14 @@ Posts lean toward brevity. They are not tutorials.
 
 Plain [Jekyll](https://jekyllrb.com/) on GitHub Pages with the official `[minima](https://github.com/jekyll/minima)` theme. No custom build, no framework churn.
 
+## Table of contents behavior
+
+Post pages include a right-side floating table of contents on desktop screens.
+
+- It is generated automatically from Markdown headings (`##` and `###`).
+- No manual TOC block is required in post content.
+- It is hidden on narrow/mobile screens to keep reading clean.
+
 ## Feed
 
 An RSS/Atom feed is available at `[/feed.xml](/feed.xml)`.
