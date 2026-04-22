@@ -1,9 +1,17 @@
+.wrapper-post {
+  max-width: 1260px;
+}
+
 .post-with-toc {
   display: grid;
-  grid-template-columns: minmax(0, 760px) 220px;
+  grid-template-columns: minmax(0, 920px) 220px;
   gap: 2.75rem;
   justify-content: center;
   align-items: start;
+}
+
+.post-header .post-title {
+  max-width: 920px;
 }
 
 .post-back {
@@ -77,6 +85,10 @@
 }
 
 @media screen and (max-width: 1180px) {
+  .wrapper-post {
+    max-width: calc(800px - (30px * 2));
+  }
+
   .post-with-toc {
     grid-template-columns: 1fr;
   }
